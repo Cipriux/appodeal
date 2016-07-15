@@ -103,7 +103,7 @@
 			<activity android:name="com.startapp.android.publish.FullScreenActivity"
 				  android:theme="@android:style/Theme"
 				  android:configChanges="orientation|keyboardHidden|screenSize" />
-			<service android:name="com.yandex.metrica.MetricaService" android:enabled="true"
+<!--		<service android:name="com.yandex.metrica.MetricaService" android:enabled="true"
 				 android:exported="true" android:process=":Metrica">
 				<intent-filter>
 					<category android:name="android.intent.category.DEFAULT" />
@@ -111,25 +111,25 @@
 					<data android:scheme="metrica" />
 				</intent-filter>
 				<meta-data android:name="metrica:api:level" android:value="44" />
-			</service>
-			<receiver android:name="com.yandex.metrica.MetricaEventHandler"
+			</service> -->
+<!--		<receiver android:name="com.yandex.metrica.MetricaEventHandler"
 				  android:enabled="true" android:exported="true">
 				<intent-filter>
 					<action android:name="com.android.vending.INSTALL_REFERRER" />
 				</intent-filter>
-			</receiver>
+			</receiver>  -->
 			<activity android:name="com.yandex.mobile.ads.AdActivity"
 				  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 			<activity android:name="com.inmobi.rendering.InMobiAdActivity"
 				  android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize"
 				  android:theme="@android:style/Theme.Translucent.NoTitleBar" android:hardwareAccelerated="true" />
-			<receiver android:name="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver"
+<!--		<receiver android:name="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver"
 				  android:enabled="true" android:exported="true" >
 				<intent-filter>
 					<action android:name="com.inmobi.share.id" />
 				</intent-filter>
-			</receiver>
-			<service android:enabled="true" android:name="com.inmobi.signals.activityrecognition.ActivityRecognitionManager" />
+			</receiver>  -->
+<!--		<service android:enabled="true" android:name="com.inmobi.signals.activityrecognition.ActivityRecognitionManager" />  -->
 			<activity android:name="com.flurry.android.FlurryFullscreenTakeoverActivity"
 				  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         </config-file>
@@ -138,7 +138,7 @@
 		<source-file src="libs/appodeal-1.14.15.jar" target-dir="libs" />
 		<source-file src="libs/inmobi-5.3.1.jar" target-dir="libs" />
 		<source-file src="libs/yandex-metrica-2.41.jar" target-dir="libs" />
-		<source-file src="libs/flurry-analytics-6.2.0.jar" target-dir="libs" />
+		
 		<source-file src="libs/applovin-6.2.2.jar" target-dir="libs" />
 		<source-file src="libs/chartboost-6.4.1.jar" target-dir="libs" />
 		<source-file src="libs/unity-ads-1.4.7.jar" target-dir="libs" />
