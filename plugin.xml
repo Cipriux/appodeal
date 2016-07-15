@@ -136,8 +136,8 @@
 
 		<source-file src="src/android/AppodealPlugin.java" target-dir="src/com/appodeal/plugin" />
 		<source-file src="libs/appodeal-1.14.15.jar" target-dir="libs" />
-		<source-file src="libs/inmobi-5.3.1.jar" target-dir="libs" />
-		<source-file src="libs/yandex-metrica-2.41.jar" target-dir="libs" />
+<!--	<source-file src="libs/inmobi-5.3.1.jar" target-dir="libs" />
+		<source-file src="libs/yandex-metrica-2.41.jar" target-dir="libs" />  -->
 		
 		<source-file src="libs/applovin-6.2.2.jar" target-dir="libs" />
 		<source-file src="libs/chartboost-6.4.1.jar" target-dir="libs" />
